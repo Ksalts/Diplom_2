@@ -1,5 +1,5 @@
 <archetype>
-  <id>diplom2</id>
+  <id>QA-java-diplom-2</id>
   <sources>
     <source>src/main/java/App.java</source>
   </sources>
