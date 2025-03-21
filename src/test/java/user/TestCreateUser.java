@@ -14,7 +14,7 @@ import praktikum.RandomUser;
 
 public class TestCreateUser {
     private final BaseUrl baseUrl = new BaseUrl();
-    private CreateUser ramdomUserNew;
+    private CreateUser randomUserNew; //
     private final UserAssertions userAssertions = new UserAssertions();
     private String accessToken = null;
     protected final RandomUser randomUser = new RandomUser();
@@ -22,14 +22,14 @@ public class TestCreateUser {
     @Before
     @Step("Предусловия для регистрации")
     public void setUp(){
-        ramdomUserNew = randomUser.random();
+        randomUserNew = randomUser.random();
     }
 
     @Test
     @DisplayName("Регистрация нового пользователя")
     @Description("Успешная регистрация нового пользователя")
     public void successCreateUser(){
-        ValidatableResponse create = baseUrl.register(ramdomUserNew);
+        ValidatableResponse create = baseUrl.register(randomUserNew);
         accessToken = userAssertions.assertCreateUser(create);
     }
 
@@ -37,8 +37,8 @@ public class TestCreateUser {
     @DisplayName("Регистрация пользователя без заполнения email")
     @Description("Пользователя нельзя создать без email")
     public void createUserWhithoutEmail(){
-        ramdomUserNew.setEmail(null);
-        ValidatableResponse create = baseUrl.register(ramdomUserNew);
+        randomUserNew.setEmail(null);
+        ValidatableResponse create = baseUrl.register(randomUserNew);
         userAssertions.assertCreateUserNoRequiredField(create);
     }
 
@@ -46,8 +46,8 @@ public class TestCreateUser {
     @DisplayName("Регистрация пользователя без заполнения поля пароль")
     @Description("Нельзя зарегистрировать пользователя без заполнения поля пароль")
     public void createUserWithoutPassword(){
-        ramdomUserNew.setPassword(null);
-        ValidatableResponse create = baseUrl.register(ramdomUserNew);
+        randomUserNew.setPassword(null);
+        ValidatableResponse create = baseUrl.register(randomUserNew);
         userAssertions.assertCreateUserNoRequiredField(create);
     }
 
@@ -55,8 +55,8 @@ public class TestCreateUser {
     @DisplayName("Регистрация пользователя без заполнения поля Имя")
     @Description("Нельзя зарегистрировать пользователя без заполнения поля Имя")
     public void createUserWithoutName(){
-        ramdomUserNew.setName(null);
-        ValidatableResponse create = baseUrl.register(ramdomUserNew);
+        randomUserNew.setName(null);
+        ValidatableResponse create = baseUrl.register(randomUserNew);
         userAssertions.assertCreateUserNoRequiredField(create);
     }
 
@@ -64,10 +64,10 @@ public class TestCreateUser {
     @DisplayName("Регистрация уже существующего пользователя")
     @Description("Нельзя зарегистрировать пользователя, который уже существует")
     public void createExistUser(){
-        ValidatableResponse create = baseUrl.register(ramdomUserNew);
+        ValidatableResponse create = baseUrl.register(randomUserNew);
         accessToken = userAssertions.assertCreateUser(create);
 
-        ValidatableResponse create2 = baseUrl.register(ramdomUserNew);
+        ValidatableResponse create2 = baseUrl.register(randomUserNew);
         userAssertions.assertFailedCreateUser(create2);
     }
 

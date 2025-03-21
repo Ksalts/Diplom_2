@@ -2,7 +2,7 @@ package praktikum;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
-import jdk.jfr.StackTrace;
+
 
 import static org.hamcrest.Matchers.*;
 

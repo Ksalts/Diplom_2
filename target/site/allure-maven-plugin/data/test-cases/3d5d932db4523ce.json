@@ -1,0 +1,133 @@
+{
+  "uid" : "3d5d932db4523ce",
+  "name" : "Регистрация пользователя без заполнения поля пароль",
+  "fullName" : "user.TestCreateUser.createUserWithoutPassword",
+  "historyId" : "52a740e6c052d06460f7291e223886c2",
+  "time" : {
+    "start" : 1742551600050,
+    "stop" : 1742551600327,
+    "duration" : 277
+  },
+  "description" : "Нельзя зарегистрировать пользователя без заполнения поля пароль",
+  "descriptionHtml" : "<p>Нельзя зарегистрировать пользователя без заполнения поля пароль</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Нельзя зарегистрировать пользователя без заполнения поля пароль",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Предусловия для регистрации",
+      "time" : {
+        "start" : 1742551600050,
+        "stop" : 1742551600050,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1742551600050,
+        "stop" : 1742551600321,
+        "duration" : 271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "createUser",
+        "value" : "praktikum.CreateUser@28901fe7"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Регистрация с пустым обязательным полем",
+      "time" : {
+        "start" : 1742551600321,
+        "stop" : 1742551600327,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@312e8eaf"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1742551600327,
+        "stop" : 1742551600327,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "user"
+  }, {
+    "name" : "testClass",
+    "value" : "user.TestCreateUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutPassword"
+  }, {
+    "name" : "suite",
+    "value" : "user.TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "KarinaS"
+  }, {
+    "name" : "thread",
+    "value" : "33472@KarinaS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d5d932db4523ce.json",
+  "parameterValues" : [ ]
+}

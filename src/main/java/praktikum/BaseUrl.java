@@ -8,7 +8,7 @@ import io.restassured.response.ValidatableResponse;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.put;
+
 
 public class BaseUrl {
     protected static final String BASEURL = "https://stellarburgers.nomoreparties.site/api/";

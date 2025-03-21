@@ -1,0 +1,190 @@
+{
+  "uid" : "41621493e60872f3",
+  "name" : "Изменение данных авторизованного пользователя",
+  "fullName" : "user.TestUserUpdate.updatePasswordSuccess",
+  "historyId" : "67de9422e11df1ea3b4385cfa946ad9c",
+  "time" : {
+    "start" : 1742551609324,
+    "stop" : 1742551610368,
+    "duration" : 1044
+  },
+  "description" : "Можно изменить пароль у авторизованного пользователя",
+  "descriptionHtml" : "<p>Можно изменить пароль у авторизованного пользователя</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Можно изменить пароль у авторизованного пользователя",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Предусловия для изменения данных пользователя",
+      "time" : {
+        "start" : 1742551609324,
+        "stop" : 1742551609722,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Регистрация пользователя",
+        "time" : {
+          "start" : 1742551609324,
+          "stop" : 1742551609713,
+          "duration" : 389
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "createUser",
+          "value" : "praktikum.CreateUser@272d0dd3"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Успешная регистрация пользователя",
+        "time" : {
+          "start" : 1742551609713,
+          "stop" : 1742551609722,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.ValidatableResponseImpl@3fc4e667"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение данных пользователя",
+      "time" : {
+        "start" : 1742551609722,
+        "stop" : 1742551610097,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZGQzYTM5OWVkMjgwMDAxYjVhYjZkNyIsImlhdCI6MTc0MjU1MTYwOSwiZXhwIjoxNzQyNTUyODA5fQ.9mDOH5gxwIpKTA2C3mLijIW4sH8e2xHSshmAxQj6WKY"
+      }, {
+        "name" : "createUser",
+        "value" : "praktikum.CreateUser@272d0dd3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Успешное изменение данных пользователя",
+      "time" : {
+        "start" : 1742551610097,
+        "stop" : 1742551610104,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@397a70d8"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1742551610105,
+        "stop" : 1742551610368,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удаление пользователя",
+        "time" : {
+          "start" : 1742551610105,
+          "stop" : 1742551610368,
+          "duration" : 263
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZGQzYTM5OWVkMjgwMDAxYjVhYjZkNyIsImlhdCI6MTc0MjU1MTYwOSwiZXhwIjoxNzQyNTUyODA5fQ.9mDOH5gxwIpKTA2C3mLijIW4sH8e2xHSshmAxQj6WKY"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "user"
+  }, {
+    "name" : "testClass",
+    "value" : "user.TestUserUpdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "updatePasswordSuccess"
+  }, {
+    "name" : "suite",
+    "value" : "user.TestUserUpdate"
+  }, {
+    "name" : "host",
+    "value" : "KarinaS"
+  }, {
+    "name" : "thread",
+    "value" : "33472@KarinaS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41621493e60872f3.json",
+  "parameterValues" : [ ]
+}
