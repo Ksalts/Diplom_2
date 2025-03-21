@@ -1,0 +1,201 @@
+[ {
+  "uid" : "3d70d3bcbbf4287d",
+  "name" : "Получение списка заказов авторизованным пользователем",
+  "time" : {
+    "start" : 1742551703738,
+    "stop" : 1742551705120,
+    "duration" : 1382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca495068f535686b",
+  "name" : "Изменение данных неавторизвоанного пользователя",
+  "time" : {
+    "start" : 1742551716931,
+    "stop" : 1742551717856,
+    "duration" : 925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20f3aa9f74ba5f9d",
+  "name" : "Создание заказа с неверными хешами ингридиентов",
+  "time" : {
+    "start" : 1742551708733,
+    "stop" : 1742551709669,
+    "duration" : 936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a11b9f66a50a7a9",
+  "name" : "Авторизация с неверным логином",
+  "time" : {
+    "start" : 1742551714993,
+    "stop" : 1742551715906,
+    "duration" : 913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abcdbb3e3b0b1344",
+  "name" : "Изменение данных авторизованного пользователя",
+  "time" : {
+    "start" : 1742551720877,
+    "stop" : 1742551721886,
+    "duration" : 1009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1b90953e9df0fa4",
+  "name" : "Получение списка заказов неавторизованным пользователем",
+  "time" : {
+    "start" : 1742551700193,
+    "stop" : 1742551703705,
+    "duration" : 3512
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c5786bc0f805b62",
+  "name" : "Создание заказа c ингридиентами авторизованным пользователем",
+  "time" : {
+    "start" : 1742551705123,
+    "stop" : 1742551708731,
+    "duration" : 3608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79fe9ad3c52948e3",
+  "name" : "Регистрация пользователя без заполнения поля пароль",
+  "time" : {
+    "start" : 1742551711541,
+    "stop" : 1742551711819,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75dae1f886c05e13",
+  "name" : "Изменение данных неавторизвоанного пользователя",
+  "time" : {
+    "start" : 1742551719938,
+    "stop" : 1742551720876,
+    "duration" : 938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16280d7a28165f97",
+  "name" : "Регистрация нового пользователя",
+  "time" : {
+    "start" : 1742551711821,
+    "stop" : 1742551712455,
+    "duration" : 634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d686474c7560eb32",
+  "name" : "Создание заказа без ингредиентов",
+  "time" : {
+    "start" : 1742551710630,
+    "stop" : 1742551711539,
+    "duration" : 909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5195271422734e48",
+  "name" : "Успешный логин пользователя",
+  "time" : {
+    "start" : 1742551713956,
+    "stop" : 1742551714991,
+    "duration" : 1035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c7e30457599aa61",
+  "name" : "Регистрация пользователя без заполнения поля Имя",
+  "time" : {
+    "start" : 1742551712457,
+    "stop" : 1742551712738,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac912df268a18d93",
+  "name" : "Изменение данных авторизованного пользователя",
+  "time" : {
+    "start" : 1742551717858,
+    "stop" : 1742551718882,
+    "duration" : 1024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "985e0073b76fd3c5",
+  "name" : "Авторизация с неверным паролем",
+  "time" : {
+    "start" : 1742551715907,
+    "stop" : 1742551716928,
+    "duration" : 1021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94389cc2594e8731",
+  "name" : "Регистрация уже существующего пользователя",
+  "time" : {
+    "start" : 1742551712738,
+    "stop" : 1742551713683,
+    "duration" : 945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79f5e0c8a05b9aef",
+  "name" : "Создание заказа неавторизованным пользователем",
+  "time" : {
+    "start" : 1742551709670,
+    "stop" : 1742551710629,
+    "duration" : 959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e34ccb2a91f19fcb",
+  "name" : "Регистрация пользователя без заполнения email",
+  "time" : {
+    "start" : 1742551713685,
+    "stop" : 1742551713954,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ac99eafc8458d86",
+  "name" : "Изменение данных неавторизвоанного пользователя",
+  "time" : {
+    "start" : 1742551721886,
+    "stop" : 1742551722785,
+    "duration" : 899
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b95a899086d1e8c4",
+  "name" : "Изменение данных авторизованного пользователя",
+  "time" : {
+    "start" : 1742551718884,
+    "stop" : 1742551719936,
+    "duration" : 1052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
